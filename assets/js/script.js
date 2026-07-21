@@ -27,3 +27,16 @@ card.style.display="none";
 });
 
 }
+
+function shareWebsite() {
+    if (navigator.share) {
+        navigator.share({
+            title: "AYUKSHA Free Earning Apps",
+            text: "Download all latest Yono Games",
+            url: window.location.href
+        });
+    } else {
+        navigator.clipboard.writeText(window.location.href);
+        alert("Link Copied!");
+    }
+}
