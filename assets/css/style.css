@@ -279,3 +279,18 @@ body{
 .app-card div{
   min-width: 120px;
 }
+.app-info p{
+  margin: 2px 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.3;
+  white-space: nowrap;
+}
+
+.app-info p:first-of-type{
+  color: #ffb347;
+}
+
+.app-info p:last-of-type{
+  color: #cfd3dc;
+}
