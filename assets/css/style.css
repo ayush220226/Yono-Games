@@ -192,10 +192,12 @@ font-size:14px;
 
 .app-info{
   flex:1;
+  min-width:0;
+  padding-right:10px;
   display:flex;
   flex-direction:column;
   gap:4px;
-}
+        }
 
 .app-name{
   font-size:20px;
@@ -207,13 +209,16 @@ font-size:14px;
   color:#ff8a00;
   font-size:14px;
   font-weight:600;
+  white-space:nowrap;
 }
 
 .withdraw-line{
   color:#cfcfcf;
   font-size:14px;
   font-weight:600;
+  white-space:nowrap;
 }
+
 body{
   overflow-x:hidden;
 }
