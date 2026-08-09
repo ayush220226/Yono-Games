@@ -183,3 +183,34 @@ font-size:14px;
 .share-btn:hover{
     transform:scale(1.05);
 }
+.app-card{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+}
+
+.app-info{
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  gap:4px;
+}
+
+.app-name{
+  font-size:20px;
+  font-weight:700;
+  color:#fff;
+}
+
+.bonus-line{
+  color:#ff8a00;
+  font-size:14px;
+  font-weight:600;
+}
+
+.withdraw-line{
+  color:#cfcfcf;
+  font-size:14px;
+  font-weight:600;
+}
