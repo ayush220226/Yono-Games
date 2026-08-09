@@ -269,3 +269,13 @@ body{
 .app-card p:last-of-type{
   color: #cfd3dc;
 }
+.app-card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.app-card div{
+  min-width: 120px;
+}
