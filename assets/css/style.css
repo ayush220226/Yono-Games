@@ -228,3 +228,61 @@ body{
   min-width:100px;
   text-align:center;
     }
+.app-card{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:14px;
+  width:100%;
+  box-sizing:border-box;
+  background:#121c3a;
+  border:1px solid rgba(255,215,0,.25);
+  border-radius:22px;
+  padding:16px;
+  margin-bottom:16px;
+}
+
+.app-card img{
+  width:64px;
+  height:64px;
+  border-radius:16px;
+  object-fit:cover;
+}
+
+.app-info{
+  flex:1;
+  min-width:0;
+}
+
+.app-name{
+  display:block;
+  font-size:20px;
+  font-weight:700;
+  color:#fff;
+  margin-bottom:8px;
+}
+
+.bonus-line{
+  color:#ff9f1a;
+  font-size:14px;
+  font-weight:600;
+  margin-bottom:4px;
+}
+
+.withdraw-line{
+  color:#cfd3dc;
+  font-size:14px;
+  font-weight:600;
+}
+
+.app-card a{
+  background:#ffd400;
+  color:#000;
+  text-decoration:none;
+  font-weight:700;
+  padding:12px 18px;
+  border-radius:14px;
+  min-width:96px;
+  text-align:center;
+  flex-shrink:0;
+}
