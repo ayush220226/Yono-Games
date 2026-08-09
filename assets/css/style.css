@@ -214,3 +214,17 @@ font-size:14px;
   font-size:14px;
   font-weight:600;
 }
+body{
+  overflow-x:hidden;
+}
+
+.app-card{
+  width:100%;
+  box-sizing:border-box;
+  flex-wrap:nowrap;
+}
+
+.app-card a{
+  min-width:100px;
+  text-align:center;
+    }
