@@ -298,4 +298,27 @@ body{
 
 .app-info p:last-of-type{
   color: #cfd3dc;
+
+}.legal-box{
+  background:#0b1736;
+  border:1px solid #ffd70055;
+  border-radius:18px;
+  padding:18px;
+  margin:20px;
+}
+
+.legal-box h2{
+  color:#ffd700;
+  margin-bottom:12px;
+}
+
+.legal-box p,
+.legal-box li{
+  color:#cfcfcf;
+  line-height:1.7;
+  font-size:14px;
+}
+
+.legal-box ul{
+  padding-left:18px;
 }
