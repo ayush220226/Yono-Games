@@ -1,43 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <url>
-    <loc>https://allnewyonogameshub.com/</loc>
-  </url>
+  <url><loc>https://allnewyonogameshub.com/</loc></url>
+  <url><loc>https://allnewyonogameshub.com/about.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/privacy.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/disclaimer.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/responsible-gaming.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/terms.html</loc></url>
 
-  <url>
-    <loc>https://allnewyonogameshub.com/yono-rummy.html</loc>
-  </url>
-
-  <url>
-    <loc>https://allnewyonogameshub.com/yono-slot.html</loc>
-  </url>
-
-  <url>
-    <loc>https://allnewyonogameshub.com/yono-vip.html</loc>
-  </url>
-
-  <url>
-    <loc>https://allnewyonogameshub.com/yono-777.html</loc>
-  </url>
-
-  <url>
-    <loc>https://allnewyonogameshub.com/yono-arcade.html</loc>
-  </url>
+  <url><loc>https://allnewyonogameshub.com/win-rummy.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/yono-rummy.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/yono-slot.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/yono-vip.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/yono-777.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/yono-arcade.html</loc></url>
 
   <url><loc>https://allnewyonogameshub.com/all-yono-games.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/yono-games.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/yono-games-download.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/yono-games-2026.html</loc></url>
 
-<url><loc>https://allnewyonogameshub.com/yono-games.html</loc></url>
-<url><loc>https://allnewyonogameshub.com/yono-games-download.html</loc></url>
-<url><loc>https://allnewyonogameshub.com/yono-games-2026.html</loc></url>
-<url><loc>https://allnewyonogameshub.com/all-yono-games-download.html</loc></url>
-<url><loc>https://allnewyonogameshub.com/yono-rummy-download.html</loc></url>
-<url><loc>https://allnewyonogameshub.com/yono-777-download.html</loc></url>
-<url><loc>https://allnewyonogameshub.com/yono-vip-download.html</loc></url>
-<url><loc>https://allnewyonogameshub.com/yono-slot-download.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/all-yono-games-download.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/yono-rummy-download.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/yono-777-download.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/yono-vip-download.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/yono-slot-download.html</loc></url>
 
-<url><loc>https://allnewyonogameshub.com/best-yono-games.html</loc></url>
-<url><loc>https://allnewyonogameshub.com/latest-yono-games.html</loc></url>
-<url><loc>https://allnewyonogameshub.com/top-yono-games.html</loc></url>
-  
+  <url><loc>https://allnewyonogameshub.com/best-yono-games.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/latest-yono-games.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/top-yono-games.html</loc></url>
+
 </urlset>
