@@ -4,265 +4,498 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>All Rummy Apps – Compare & Download Rummy Apps</title>
+<title>All Rummy Apps – Rummy Games, Apps & Information 2026</title>
 
-<meta name="description" content="Explore and compare rummy applications in one place. Find app information, features, installation guides and available download options.">
+<meta name="description"
+content="Explore all rummy apps and rummy game information in one place. Discover Yono Rummy, Rummy 888, Rummy 365, Rummy 91, Club INR and other related game pages.">
+
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://allnewyonogameshub.com/all-rummy-apps.html">
+
+<link rel="canonical"
+href="https://allnewyonogameshub.com/all-rummy-apps.html">
 
 <style>
-*{box-sizing:border-box}
+
+*{
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
 
 body{
     margin:0;
     font-family:Arial,Helvetica,sans-serif;
-    background:#f5f7fa;
+    background:#f4f6f9;
     color:#20242b;
+    line-height:1.7;
 }
 
+/* HEADER */
+
 .header{
-    background:linear-gradient(135deg,#111827,#263447);
-    color:white;
-    padding:18px 20px;
+    background:linear-gradient(135deg,#e9003d,#ff315c);
+    color:#fff;
+    padding:15px 18px;
     display:flex;
     align-items:center;
     justify-content:space-between;
     gap:15px;
+    position:sticky;
+    top:0;
+    z-index:50;
+    box-shadow:0 3px 15px rgba(0,0,0,.15);
 }
 
-.header h1{
-    margin:0;
-    font-size:22px;
+.brand{
+    display:flex;
+    align-items:center;
+    gap:11px;
+    font-weight:800;
+    font-size:19px;
+}
+
+.brand-icon{
+    width:45px;
+    height:45px;
+    border-radius:12px;
+    object-fit:cover;
+    background:#fff;
 }
 
 .back{
-    background:#ffffff22;
-    color:white;
+    color:#fff;
     text-decoration:none;
-    padding:10px 16px;
-    border-radius:8px;
+    background:rgba(255,255,255,.18);
+    padding:9px 15px;
+    border-radius:9px;
+    font-weight:700;
     font-size:14px;
 }
 
+/* CONTAINER */
+
 .container{
-    max-width:900px;
+    max-width:950px;
     margin:auto;
-    padding:25px 16px 50px;
+    padding:22px 15px 55px;
 }
+
+/* HERO */
 
 .hero{
-    background:white;
-    border-radius:18px;
-    padding:28px 20px;
-    text-align:center;
-    box-shadow:0 5px 20px #00000010;
-}
-
-.logo{
-    width:110px;
-    height:110px;
+    background:#fff;
     border-radius:22px;
-    object-fit:cover;
-    margin-bottom:12px;
+    padding:30px 20px;
+    text-align:center;
+    box-shadow:0 5px 22px rgba(0,0,0,.07);
 }
 
-.hero h2{
-    font-size:30px;
-    margin:8px 0;
+.hero-icon{
+    width:115px;
+    height:115px;
+    border-radius:27px;
+    object-fit:cover;
+    margin-bottom:10px;
+}
+
+.hero h1{
+    font-size:34px;
+    line-height:1.25;
+    margin:5px 0 10px;
 }
 
 .hero p{
-    color:#626b76;
-    line-height:1.7;
+    max-width:730px;
+    margin:0 auto;
+    color:#606975;
     font-size:16px;
 }
 
-.download{
+.main-button{
     display:inline-block;
-    margin-top:12px;
-    background:#e91e63;
-    color:white;
+    margin-top:20px;
+    padding:14px 25px;
+    border-radius:12px;
+    background:#e40055;
+    color:#fff;
     text-decoration:none;
-    padding:15px 25px;
-    border-radius:10px;
-    font-weight:bold;
-    font-size:17px;
+    font-weight:800;
+    font-size:16px;
+    box-shadow:0 5px 14px rgba(228,0,85,.22);
 }
 
+/* INFO */
+
+.info-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:10px;
+    margin-top:20px;
+}
+
+.info{
+    background:#f7f8fa;
+    padding:14px 8px;
+    border-radius:13px;
+    text-align:center;
+}
+
+.info strong{
+    display:block;
+    font-size:19px;
+}
+
+.info span{
+    color:#747b85;
+    font-size:13px;
+}
+
+/* CARD */
+
 .card{
-    background:white;
+    background:#fff;
     margin-top:22px;
-    padding:24px 20px;
-    border-radius:16px;
-    box-shadow:0 4px 18px #0000000d;
+    padding:25px 21px;
+    border-radius:19px;
+    box-shadow:0 4px 18px rgba(0,0,0,.055);
 }
 
 .card h2{
-    margin-top:0;
-    font-size:23px;
+    margin:0 0 12px;
+    font-size:24px;
+    line-height:1.3;
 }
 
 .card p{
-    color:#59636f;
-    line-height:1.8;
+    color:#59636e;
     font-size:16px;
 }
+
+/* FEATURES */
 
 .features{
     display:grid;
     grid-template-columns:repeat(2,1fr);
-    gap:12px;
+    gap:13px;
     margin-top:15px;
 }
 
 .feature{
     background:#f7f8fa;
+    border-radius:13px;
     padding:16px;
-    border-radius:12px;
 }
 
 .feature strong{
     display:block;
-    margin-bottom:6px;
+    font-size:17px;
+    margin-bottom:5px;
 }
 
-.games{
+/* APP DRAWER */
+
+.drawer-title{
+    text-align:center;
+    margin-bottom:5px;
+}
+
+.drawer-subtitle{
+    text-align:center;
+    color:#707780;
+    margin-top:0;
+}
+
+.apps{
     display:grid;
     grid-template-columns:repeat(2,1fr);
     gap:14px;
+    margin-top:20px;
 }
 
-.game{
-    border:1px solid #e4e7eb;
-    border-radius:13px;
+.app{
+    border:1px solid #e5e8ed;
+    border-radius:15px;
     padding:17px;
-    background:white;
+    background:#fff;
+    transition:.2s;
 }
 
-.game h3{
-    margin:0 0 10px;
+.app:hover{
+    transform:translateY(-2px);
+    box-shadow:0 7px 20px rgba(0,0,0,.08);
+}
+
+.app-name{
     font-size:18px;
+    font-weight:800;
+    margin-bottom:5px;
 }
 
-.game a{
-    display:block;
-    text-align:center;
-    background:#2563eb;
-    color:white;
-    text-decoration:none;
-    padding:11px;
-    border-radius:8px;
-    font-weight:bold;
-}
-
-.steps{
-    padding-left:20px;
-    color:#59636f;
-    line-height:2;
-}
-
-.faq h3{
-    font-size:17px;
-    margin-bottom:7px;
-}
-
-.footer{
-    text-align:center;
+.app-desc{
     color:#707780;
     font-size:14px;
-    padding:25px 10px;
+    margin-bottom:12px;
 }
 
-@media(max-width:600px){
-    .games,.features{
+.app-button{
+    display:block;
+    text-align:center;
+    background:#ef174f;
+    color:#fff;
+    text-decoration:none;
+    padding:10px;
+    border-radius:9px;
+    font-weight:700;
+}
+
+/* STEPS */
+
+.steps{
+    padding-left:22px;
+    color:#59636e;
+}
+
+.steps li{
+    margin:9px 0;
+}
+
+/* FAQ */
+
+.faq{
+    border-bottom:1px solid #e9ebef;
+    padding:16px 0;
+}
+
+.faq:last-child{
+    border-bottom:0;
+}
+
+.faq strong{
+    display:block;
+    font-size:17px;
+    margin-bottom:5px;
+}
+
+/* NOTICE */
+
+.notice{
+    background:#fff7e8;
+    border-left:5px solid #f0a000;
+    padding:16px;
+    border-radius:10px;
+    color:#66552f;
+    margin-top:15px;
+}
+
+/* FOOTER */
+
+.footer{
+    background:#171b22;
+    color:#bfc4ca;
+    text-align:center;
+    padding:28px 15px;
+    font-size:14px;
+}
+
+.footer a{
+    color:#fff;
+    text-decoration:none;
+}
+
+/* MOBILE */
+
+@media(max-width:650px){
+
+    .brand{
+        font-size:16px;
+    }
+
+    .brand-icon{
+        width:40px;
+        height:40px;
+    }
+
+    .back{
+        padding:8px 11px;
+    }
+
+    .hero h1{
+        font-size:28px;
+    }
+
+    .info-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .features{
+        grid-template-columns:1fr;
+    }
+
+    .apps{
         grid-template-columns:1fr 1fr;
     }
 
-    .hero h2{
-        font-size:26px;
+    .app{
+        padding:14px;
     }
 
-    .header h1{
-        font-size:18px;
-    }
 }
+
+@media(max-width:420px){
+
+    .apps{
+        grid-template-columns:1fr;
+    }
+
+}
+
 </style>
 </head>
 
 <body>
 
 <header class="header">
-    <h1>All New Yono Games</h1>
-    <a class="back" href="index.html">← Back</a>
+
+<div class="brand">
+
+<img
+class="brand-icon"
+src="logo.png"
+alt="All New Yono Games">
+
+<span>All New Yono Games</span>
+
+</div>
+
+<a class="back" href="index.html">
+← Home
+</a>
+
 </header>
+
 
 <main class="container">
 
+
+<!-- HERO -->
+
 <section class="hero">
 
-    <img class="logo"
-         src="https://allnewyonogameshub.com/favicon.ico"
-         alt="All New Yono Games">
+<img
+class="hero-icon"
+src="logo.png"
+alt="All Rummy Apps">
 
-    <h2>All Rummy Apps</h2>
+<h1>All Rummy Apps</h1>
 
-    <p>
-        Explore a collection of rummy applications and related
-        game information in one convenient place. Compare available
-        options, read app information and find installation guidance.
-    </p>
+<p>
+Explore rummy applications and related game information in one
+place. Discover individual rummy pages, Yono gaming resources,
+installation guidance and useful information before using an app.
+</p>
 
-    <a class="download" href="#rummy-list">
-        🎮 EXPLORE RUMMY APPS
-    </a>
+<div class="info-grid">
+
+<div class="info">
+<strong>Rummy</strong>
+<span>Game Category</span>
+</div>
+
+<div class="info">
+<strong>2026</strong>
+<span>Latest Guide</span>
+</div>
+
+<div class="info">
+<strong>Android</strong>
+<span>Mobile Focus</span>
+</div>
+
+<div class="info">
+<strong>10+</strong>
+<span>Related Pages</span>
+</div>
+
+</div>
+
+<a
+class="main-button"
+href="all-yono-games.html">
+
+🎮 VIEW ALL YONO GAMES
+
+</a>
 
 </section>
 
 
+<!-- OVERVIEW -->
+
 <section class="card">
 
-<h2>All Rummy Apps – Complete Guide</h2>
+<h2>All Rummy Apps – Complete Overview</h2>
 
 <p>
-Rummy is a popular card-game format available through many
-different mobile applications. Each application can have its own
-interface, game modes, features and account requirements.
+Rummy is a card-game format available through many different
+mobile applications and online gaming platforms. Individual
+applications can provide different interfaces, game formats,
+features and account requirements.
 </p>
 
 <p>
-This page provides an informational directory of rummy-related
-applications. Before installing any application, users should
-check the developer, permissions, terms, local laws and applicable
-age requirements.
+This page brings together information about several rummy-related
+pages available on All New Yono Games. Visitors can open an
+individual page to learn more about a particular application or
+game name.
+</p>
+
+<p>
+Application availability and features can change over time.
+Always verify the current source, publisher information, terms,
+age requirements and applicable local rules before using an
+external gaming service.
 </p>
 
 </section>
 
 
+<!-- FEATURES -->
+
 <section class="card">
 
-<h2>Rummy App Features</h2>
+<h2>Rummy App Information</h2>
 
 <div class="features">
 
 <div class="feature">
-<strong>📱 Mobile Apps</strong>
-Information about Android and mobile applications.
+<strong>🃏 Rummy Games</strong>
+<p>
+Explore different rummy-related game pages and formats.
+</p>
 </div>
 
 <div class="feature">
-<strong>🃏 Rummy Games</strong>
-Explore different rummy game formats.
+<strong>📱 Mobile Information</strong>
+<p>
+Find information relevant to users researching mobile gaming apps.
+</p>
 </div>
 
 <div class="feature">
 <strong>📖 Game Guides</strong>
-Read basic information before using an app.
+<p>
+Read basic information before deciding whether an application
+is relevant to you.
+</p>
 </div>
 
 <div class="feature">
-<strong>🔐 Account Information</strong>
-Learn about common registration and login steps.
+<strong>🔎 Individual Pages</strong>
+<p>
+Open dedicated pages for specific rummy and Yono game names.
+</p>
 </div>
 
 </div>
@@ -270,115 +503,402 @@ Learn about common registration and login steps.
 </section>
 
 
-<section class="card" id="rummy-list">
+<!-- APP DRAWER -->
 
-<h2>Rummy Apps & Related Pages</h2>
+<section class="card" id="rummy-apps">
 
-<div class="games">
+<h2 class="drawer-title">
+Rummy Apps & Yono Games
+</h2>
 
-<div class="game">
-<h3>Rummy 888</h3>
-<a href="rummy-888.html">View Page</a>
+<p class="drawer-subtitle">
+Open any game page from our website.
+</p>
+
+<div class="apps">
+
+
+<div class="app">
+
+<div class="app-name">
+Rummy 888
 </div>
 
-<div class="game">
-<h3>Rummy 91</h3>
-<a href="rummy-91.html">View Page</a>
+<div class="app-desc">
+Rummy 888 game information and guide.
 </div>
 
-<div class="game">
-<h3>Yono Rummy</h3>
-<a href="yono-rummy.html">View Page</a>
+<a class="app-button"
+href="rummy-888.html">
+Visit Page →
+</a>
+
 </div>
 
-<div class="game">
-<h3>Top Rummy</h3>
-<a href="top-rummy.html">View Page</a>
+
+<div class="app">
+
+<div class="app-name">
+Rummy 365
 </div>
 
-<div class="game">
-<h3>Club INR</h3>
-<a href="club-inr.html">View Page</a>
+<div class="app-desc">
+Rummy 365 application information.
 </div>
 
-<div class="game">
-<h3>Yono Games</h3>
-<a href="yono-games.html">View Page</a>
+<a class="app-button"
+href="rummy-365.html">
+Visit Page →
+</a>
+
 </div>
+
+
+<div class="app">
+
+<div class="app-name">
+Rummy 91
+</div>
+
+<div class="app-desc">
+Rummy 91 game information and guide.
+</div>
+
+<a class="app-button"
+href="rummy-91.html">
+Visit Page →
+</a>
+
+</div>
+
+
+<div class="app">
+
+<div class="app-name">
+Joy Rummy
+</div>
+
+<div class="app-desc">
+Joy Rummy information and related resources.
+</div>
+
+<a class="app-button"
+href="joy-rummy.html">
+Visit Page →
+</a>
+
+</div>
+
+
+<div class="app">
+
+<div class="app-name">
+Yono Rummy
+</div>
+
+<div class="app-desc">
+Yono Rummy game information.
+</div>
+
+<a class="app-button"
+href="yono-rummy.html">
+Visit Page →
+</a>
+
+</div>
+
+
+<div class="app">
+
+<div class="app-name">
+Club INR
+</div>
+
+<div class="app-desc">
+Club INR app information and guide.
+</div>
+
+<a class="app-button"
+href="club-inr.html">
+Visit Page →
+</a>
+
+</div>
+
+
+<div class="app">
+
+<div class="app-name">
+Yono 777
+</div>
+
+<div class="app-desc">
+Yono 777 game information.
+</div>
+
+<a class="app-button"
+href="yono-777.html">
+Visit Page →
+</a>
+
+</div>
+
+
+<div class="app">
+
+<div class="app-name">
+Yono VIP
+</div>
+
+<div class="app-desc">
+Yono VIP application information.
+</div>
+
+<a class="app-button"
+href="yono-vip.html">
+Visit Page →
+</a>
+
+</div>
+
+
+<div class="app">
+
+<div class="app-name">
+Yono Slot
+</div>
+
+<div class="app-desc">
+Yono Slot game information.
+</div>
+
+<a class="app-button"
+href="yono-slot.html">
+Visit Page →
+</a>
+
+</div>
+
+
+<div class="app">
+
+<div class="app-name">
+Yono Arcade
+</div>
+
+<div class="app-desc">
+Yono Arcade information and related games.
+</div>
+
+<a class="app-button"
+href="yono-arcade.html">
+Visit Page →
+</a>
+
+</div>
+
 
 </div>
 
 </section>
 
+
+<!-- HOW TO CHOOSE -->
 
 <section class="card">
 
-<h2>How to Check a Rummy App</h2>
+<h2>How to Choose a Rummy App</h2>
 
 <ol class="steps">
-<li>Check the official developer or publisher information.</li>
-<li>Review the application's permissions and privacy information.</li>
-<li>Read the available terms and conditions.</li>
-<li>Check whether the application is permitted in your location.</li>
-<li>Only install applications from sources you trust.</li>
+
+<li>
+Check the application's developer or publisher information.
+</li>
+
+<li>
+Review the available terms and privacy information.
+</li>
+
+<li>
+Check the permissions requested by the application.
+</li>
+
+<li>
+Verify whether the service is permitted in your location.
+</li>
+
+<li>
+Use only trustworthy and verified sources for application access.
+</li>
+
 </ol>
 
 </section>
 
 
-<section class="card faq">
+<!-- SAFETY -->
+
+<section class="card">
+
+<h2>Rummy App Safety Information</h2>
+
+<div class="notice">
+
+<strong>Important:</strong>
+
+<p>
+Third-party applications and APK files can create security and
+privacy risks. Avoid modified APK files and unknown download
+sources. Never share OTPs, UPI PINs, banking passwords or other
+sensitive credentials with an untrusted application.
+</p>
+
+</div>
+
+<p>
+If a service involves real-money gaming, users should understand
+the financial risks and check applicable laws, age requirements
+and regulations in their location.
+</p>
+
+</section>
+
+
+<!-- FAQ -->
+
+<section class="card">
 
 <h2>Frequently Asked Questions</h2>
 
-<h3>What are rummy apps?</h3>
+
+<div class="faq">
+
+<strong>What are rummy apps?</strong>
+
 <p>
 Rummy apps are mobile or web applications that provide digital
 versions of rummy and related card-game formats.
 </p>
 
-<h3>Are all rummy apps the same?</h3>
+</div>
+
+
+<div class="faq">
+
+<strong>Which rummy apps are listed here?</strong>
+
 <p>
-No. Applications can differ in their game formats, interfaces,
-features, registration requirements and availability.
+This directory includes individual pages for titles such as
+Rummy 888, Rummy 365, Rummy 91, Joy Rummy and Yono Rummy, along
+with related Yono gaming pages.
 </p>
 
-<h3>Where can I find information about individual apps?</h3>
+</div>
+
+
+<div class="faq">
+
+<strong>Can I access the individual game pages?</strong>
+
 <p>
-Use the individual pages listed above to read more information
-about the corresponding application.
+Yes. Use the Apps & Games section above to open the corresponding
+page on All New Yono Games.
 </p>
 
-<h3>Should I check an app before installing it?</h3>
+</div>
+
+
+<div class="faq">
+
+<strong>Are all rummy applications the same?</strong>
+
 <p>
-Yes. Always verify the source, developer information, permissions,
-terms and applicable local requirements before installation.
+No. Applications can differ in their rules, features, interface,
+availability and account requirements.
 </p>
+
+</div>
+
+
+<div class="faq">
+
+<strong>Should I verify an application before using it?</strong>
+
+<p>
+Yes. Always verify the source, publisher, permissions, terms and
+applicable local requirements before installing or using an app.
+</p>
+
+</div>
 
 </section>
 
+
+<!-- RELATED -->
 
 <section class="card">
 
-<h2>Important Information</h2>
+<h2>Explore All Yono Games</h2>
 
 <p>
-All New Yono Games is an independent informational website and
-does not operate or develop the applications listed on this page.
-Availability, features and terms may change over time.
+Looking for more Yono-related game information? Visit our main
+directory and explore additional categories and individual pages.
+</p>
+
+<a
+class="main-button"
+href="all-yono-games.html">
+
+Explore All Yono Games →
+
+</a>
+
+</section>
+
+
+<!-- DISCLAIMER -->
+
+<section class="card">
+
+<h2>Disclaimer</h2>
+
+<p>
+AllNewYonoGamesHub.com is an independent informational website.
+We do not own, operate or control the third-party applications
+mentioned on this page.
 </p>
 
 <p>
-Users should make their own decisions and follow applicable laws
-and the official terms of each application.
+Information about external applications may change over time.
+Users should independently verify current information before
+taking any action.
+</p>
+
+<p>
+Real-money gaming can involve financial risk and may not be
+legal everywhere. Users should follow applicable laws and
+minimum-age requirements.
 </p>
 
 </section>
 
+
 </main>
 
+
 <footer class="footer">
-    © 2026 All New Yono Games Hub · Informational Directory
+
+© 2026 All New Yono Games Hub
+
+<br><br>
+
+<a href="index.html">Home</a>
+&nbsp; · &nbsp;
+<a href="about.html">About</a>
+&nbsp; · &nbsp;
+<a href="privacy.html">Privacy</a>
+
 </footer>
 
 </body>
-</html>
+    </html>
