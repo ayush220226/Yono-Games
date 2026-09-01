@@ -1,101 +1,217 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <url><loc>https://allnewyonogameshub.com/</loc></url>
-  <url><loc>https://allnewyonogameshub.com/about.html</loc></url>
-  <url><loc>https://allnewyonogameshub.com/privacy.html</loc></url>
-  <url><loc>https://allnewyonogameshub.com/disclaimer.html</loc></url>
-  <url><loc>https://allnewyonogameshub.com/responsible-gaming.html</loc></url>
-  <url><loc>https://allnewyonogameshub.com/terms.html</loc></url>
+  <!-- MAIN PAGES -->
+  <url>
+    <loc>https://allnewyonogameshub.com/</loc>
+  </url>
+
+  <url>
+    <loc>https://allnewyonogameshub.com/about.html</loc>
+  </url>
+
+  <url>
+    <loc>https://allnewyonogameshub.com/privacy.html</loc>
+  </url>
+
+  <!-- YONO MAIN PAGES -->
+
+  <url>
+    <loc>https://allnewyonogameshub.com/all-yono-games.html</loc>
+  </url>
+
+  <url>
+    <loc>https://allnewyonogameshub.com/yono-games.html</loc>
+  </url>
+
+  <url>
+    <loc>https://allnewyonogameshub.com/yono-games-download.html</loc>
+  </url>
+
+  <url>
+    <loc>https://allnewyonogameshub.com/yono-games-2026.html</loc>
+  </url>
+
+  <url>
+    <loc>https://allnewyonogameshub.com/yono-games-hub.html</loc>
+  </url>
+
+  <url>
+    <loc>https://allnewyonogameshub.com/yono-games-app.html</loc>
+  </url>
+
+  <url>
+    <loc>https://allnewyonogameshub.com/yono-games-online.html</loc>
+  </url>
+
+  <url>
+    <loc>https://allnewyonogameshub.com/yono-games-list-2026.html</loc>
+  </url>
+
+  <url>
+    <loc>https://allnewyonogameshub.com/yono-all-games.html</loc>
+  </url>
+
+  <url>
+    <loc>https://allnewyonogameshub.com/yono-game.html</loc>
+  </url>
+
+  <url>
+    <loc>https://allnewyonogameshub.com/yono-app-apk-2026.html</loc>
+  </url>
+
+  <url>
+    <loc>https://allnewyonogameshub.com/yonogames-2026.html</loc>
+  </url>
+
+  <url>
+    <loc>https://allnewyonogameshub.com/new-yono-app-2026.html</loc>
+  </url>
+
+  <!-- DOWNLOAD / SPECIAL SEO PAGES -->
+
+  <url>
+    <loc>https://allnewyonogameshub.com/all-yono-games-download.html</loc>
+  </url>
+
+  <url>
+    <loc>https://allnewyonogameshub.com/yono-rummy-download.html</loc>
+  </url>
+
+  <url>
+    <loc>https://allnewyonogameshub.com/yono-777-download.html</loc>
+  </url>
+
+  <url>
+    <loc>https://allnewyonogameshub.com/yono-vip-download.html</loc>
+  </url>
+
+  <url>
+    <loc>https://allnewyonogameshub.com/yono-slot-download.html</loc>
+  </url>
+
+  <url>
+    <loc>https://allnewyonogameshub.com/yono-rummy-refer.html</loc>
+  </url>
+
+  <!-- CATEGORY SEO PAGES -->
+
+  <url>
+    <loc>https://allnewyonogameshub.com/best-yono-games.html</loc>
+  </url>
+
+  <url>
+    <loc>https://allnewyonogameshub.com/latest-yono-games.html</loc>
+  </url>
+
+  <url>
+    <loc>https://allnewyonogameshub.com/top-yono-games.html</loc>
+  </url>
+
+  <url>
+    <loc>https://allnewyonogameshub.com/all-yono-games-for-android.html</loc>
+  </url>
+
+  <url>
+    <loc>https://allnewyonogameshub.com/all-rummy-apps.html</loc>
+  </url>
+
+  <url>
+    <loc>https://allnewyonogameshub.com/rummy-games.html</loc>
+  </url>
+
+  <url>
+    <loc>https://allnewyonogameshub.com/slot-games.html</loc>
+  </url>
+
+  <url>
+    <loc>https://allnewyonogameshub.com/arcade-games.html</loc>
+  </url>
+
+  <!-- ORIGINAL YONO APPS -->
+
+  <url>
+    <loc>https://allnewyonogameshub.com/yono-rummy.html</loc>
+  </url>
+
+  <url>
+    <loc>https://allnewyonogameshub.com/yono-777.html</loc>
+  </url>
+
+  <url>
+    <loc>https://allnewyonogameshub.com/yono-vip.html</loc>
+  </url>
+
+  <url>
+    <loc>https://allnewyonogameshub.com/yono-slot.html</loc>
+  </url>
+
+  <url>
+    <loc>https://allnewyonogameshub.com/yono-arcade.html</loc>
+  </url>
+
+  <!-- RUMMY APPS -->
 
   <url><loc>https://allnewyonogameshub.com/win-rummy.html</loc></url>
-  <url><loc>https://allnewyonogameshub.com/yono-rummy.html</loc></url>
-  <url><loc>https://allnewyonogameshub.com/yono-slot.html</loc></url>
-  <url><loc>https://allnewyonogameshub.com/yono-vip.html</loc></url>
-  <url><loc>https://allnewyonogameshub.com/yono-777.html</loc></url>
-  <url><loc>https://allnewyonogameshub.com/yono-arcade.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/joy-rummy.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/max-rummy.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/rummy-888.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/rummy-91.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/rummy-77.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/rummy-365.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/rummy-ludo.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/top-rummy.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/love-rummy.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/gold-rummy.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/hi-rummy.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/game-rummy.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/gogo-rummy.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/ind-rummy.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/inr-rummy.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/abc-rummy.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/boss-rummy.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/rumble-rummy.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/ok-rummy.html</loc></url>
 
-  <url><loc>https://allnewyonogameshub.com/all-yono-games.html</loc></url>
-  <url><loc>https://allnewyonogameshub.com/yono-games.html</loc></url>
-  <url><loc>https://allnewyonogameshub.com/yono-games-download.html</loc></url>
-  <url><loc>https://allnewyonogameshub.com/yono-games-2026.html</loc></url>
+  <!-- CLUB / OTHER APPS -->
 
-  <url><loc>https://allnewyonogameshub.com/all-yono-games-download.html</loc></url>
-  <url><loc>https://allnewyonogameshub.com/yono-rummy-download.html</loc></url>
-  <url><loc>https://allnewyonogameshub.com/yono-777-download.html</loc></url>
-  <url><loc>https://allnewyonogameshub.com/yono-vip-download.html</loc></url>
-  <url><loc>https://allnewyonogameshub.com/yono-slot-download.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/club-inr.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/ind-club.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/bingo-101.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/101z.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/bet213.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/maha-games.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/mbm-bet.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/neta-vip.html</loc></url>
 
-  <url><loc>https://allnewyonogameshub.com/best-yono-games.html</loc></url>
-  <url><loc>https://allnewyonogameshub.com/latest-yono-games.html</loc></url>
-  <url><loc>https://allnewyonogameshub.com/top-yono-games.html</loc></url>
+  <!-- 777 / JACKPOT -->
 
- <url><loc>https://allnewyonogameshub.com/all-yono-games-for-android.html</loc></url>
-  <url><loc>https://allnewyonogameshub.com/yono-games-app.html</loc></url>
-  <url><loc>https://allnewyonogameshub.com/yono-games-online.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/777-game.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/789-jackpot.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/hindi-777.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/yn-777.html</loc></url>
 
-<url><loc>https://allnewyonogameshub.com/rummy-games.html</loc></url>
-<url><loc>https://allnewyonogameshub.com/slot-games.html</loc></url>
-<url><loc>https://allnewyonogameshub.com/arcade-games.html</loc></url>
+  <!-- SLOT / SPIN -->
 
-<url>
-  <loc>https://allnewyonogameshub.com/rummy-888.html</loc>
-</url>
+  <url><loc>https://allnewyonogameshub.com/567-slots.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/saga-slot.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/share-slot.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/slots-spin.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/slots-winner.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/spin-101.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/spin-777.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/spin-crush.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/spin-gold.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/spin-winner.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/ind-slot.html</loc></url>
 
-<url>
-  <loc>https://allnewyonogameshub.com/club-inr.html</loc>
-</url>
+  <!-- JAIHO APPS -->
 
-<url>
-  <loc>https://allnewyonogameshub.com/spin-gold.html</loc>
-</url>
+  <url><loc>https://allnewyonogameshub.com/jaiho-777.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/jaiho-arcade.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/jaiho-rummy.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/jaiho-slots.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/jaiho-spin.html</loc></url>
+  <url><loc>https://allnewyonogameshub.com/jaiho-win.html</loc></url>
 
-<url>
-  <loc>https://allnewyonogameshub.com/jaiho-777.html</loc>
-</url>
-
-<url>
-  <loc>https://allnewyonogameshub.com/bingo-101.html</loc>
-</url>
-
-<url>
-  <loc>https://allnewyonogameshub.com/rummy-888.html</loc>
-</url>
-
-<url>
-  <loc>https://allnewyonogameshub.com/club-inr.html</loc>
-</url>
-
-<url>
-  <loc>https://allnewyonogameshub.com/top-rummy.html</loc>
-</url>
-
-<url>
-  <loc>https://allnewyonogameshub.com/yono-all-games.html</loc>
-</url>
-
-<url>
-  <loc>https://allnewyonogameshub.com/yono-rummy-refer.html</loc>
-</url>
-
-<url>
-  <loc>https://allnewyonogameshub.com/yono-games-2026.html</loc>
-</url>
-
-<url>
-  <loc>https://allnewyonogameshub.com/new-yono-app-2026.html</loc>
-</url>
-
-<url>
-  <loc>https://allnewyonogameshub.com/yono-game.html</loc>
-</url>
-
-<url>
-  <loc>https://allnewyonogameshub.com/yono-app-apk-2026.html</loc>
-</url>
-
-<url>
-  <loc>https://allnewyonogameshub.com/yono-games-list-2026.html</loc>
-</url>
-  
 </urlset>
