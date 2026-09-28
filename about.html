@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>About Us - All New Yono Games</title>
-  <meta name="description" content="Learn more about All New Yono Games and our mission to provide information about popular Yono and gaming apps.">
+
+  <meta name="description" content="Learn more about All New Yono Games and our mission to provide information about popular Yono and bonus apps.">
 
   <style>
     body{
@@ -43,30 +44,41 @@
       text-decoration:none;
     }
 
-    .links{
+    /* TOP YONO LINKS */
+    .top-links{
       display:grid;
       grid-template-columns:repeat(2,1fr);
       gap:12px;
-      margin-top:15px;
+      margin-top:20px;
     }
 
-    .link-card{
+    .top-link{
       background:#101f45;
-      border:1px solid #ffd70044;
+      border:1px solid #ffd70055;
       border-radius:12px;
-      padding:14px;
+      padding:15px;
       display:block;
-      transition:0.2s;
     }
 
-    .link-card:hover{
+    .top-link:hover{
       border-color:#ffd700;
-      transform:translateY(-2px);
+    }
+
+    .all-yono{
+      grid-column:1 / -1;
+      background:#17295a;
+      text-align:center;
+      font-size:18px;
+      font-weight:bold;
     }
 
     @media(max-width:600px){
-      .links{
+      .top-links{
         grid-template-columns:1fr;
+      }
+
+      .all-yono{
+        grid-column:auto;
       }
     }
   </style>
@@ -76,105 +88,109 @@
 
 <body>
 
-  <div class="container">
+<div class="container">
 
-    <div class="box">
-      <h1>About Us</h1>
+  <!-- ALL YONO GAMES + NEW YONO GAMES AT TOP -->
+  <div class="box">
 
-      <p>
-        Welcome to <strong>All New Yono Games</strong>. This website is created to provide information and easy access to popular Yono, Rummy, Slot, and bonus-related applications in one place.
-      </p>
+    <div class="top-links">
 
-      <p>
-        Our goal is to make it simple for users to explore different apps and offers without searching across multiple websites.
-      </p>
+      <!-- ALL YONO GAMES -->
+      <a class="top-link all-yono" href="/all-yono-games.html">
+        All Yono Games →
+      </a>
 
-      <p>
-        We do not own or operate any of the listed applications. All app names, logos, and trademarks belong to their respective owners.
-      </p>
-    </div>
+      <!-- NEW YONO GAMES -->
+      <a class="top-link" href="/yono-games.html">
+        <strong>Yono Games</strong><br>
+        <small>Explore Yono Games →</small>
+      </a>
 
+      <a class="top-link" href="/yono-rummy.html">
+        <strong>Yono Rummy</strong><br>
+        <small>Explore Yono Rummy →</small>
+      </a>
 
-    <!-- YONO INTERNAL LINKS -->
-    <div class="box">
-      <h2>Explore Yono Games</h2>
+      <a class="top-link" href="/yono-777.html">
+        <strong>Yono 777</strong><br>
+        <small>Explore Yono 777 →</small>
+      </a>
 
-      <p>
-        Explore our Yono Games directory and related pages:
-      </p>
+      <a class="top-link" href="/yono-vip.html">
+        <strong>Yono VIP</strong><br>
+        <small>Explore Yono VIP →</small>
+      </a>
 
-      <div class="links">
+      <a class="top-link" href="/yono-slots.html">
+        <strong>Yono Slots</strong><br>
+        <small>Explore Yono Slots →</small>
+      </a>
 
-        <a class="link-card" href="/all-yono-games.html">
-          <strong>All Yono Games</strong><br>
-          <small>View the complete Yono Games directory →</small>
-        </a>
-
-        <a class="link-card" href="/yono-games.html">
-          <strong>Yono Games</strong><br>
-          <small>View Yono Games information →</small>
-        </a>
-
-        <a class="link-card" href="/yono-rummy.html">
-          <strong>Yono Rummy</strong><br>
-          <small>Explore Yono Rummy →</small>
-        </a>
-
-        <a class="link-card" href="/yono-777.html">
-          <strong>Yono 777</strong><br>
-          <small>Explore Yono 777 →</small>
-        </a>
-
-        <a class="link-card" href="/yono-vip.html">
-          <strong>Yono VIP</strong><br>
-          <small>Explore Yono VIP →</small>
-        </a>
-
-        <a class="link-card" href="/yono-slot.html">
-          <strong>Yono Slot</strong><br>
-          <small>Explore Yono Slot →</small>
-        </a>
-
-        <a class="link-card" href="/yono-arcade.html">
-          <strong>Yono Arcade</strong><br>
-          <small>Explore Yono Arcade →</small>
-        </a>
-
-      </div>
-    </div>
-
-
-    <div class="box">
-      <h2>Our Mission</h2>
-
-      <p>
-        To provide a clean, fast, and mobile-friendly platform where users can discover trending gaming and bonus apps with proper information and referral access.
-      </p>
-    </div>
-
-
-    <div class="box">
-      <h2>Important Notice</h2>
-
-      <p>
-        This website is for informational purposes only. We do not guarantee any earnings, bonuses, withdrawals, or profits. Users should check the rules and conditions of each app before using it.
-      </p>
-    </div>
-
-
-    <div class="box">
-      <h2>Contact</h2>
-
-      <p>
-        For website-related queries, you can contact us through the available contact methods on this website.
-      </p>
-
-      <p>
-        <a href="/">← Back to Home</a>
-      </p>
     </div>
 
   </div>
+
+
+  <!-- ABOUT US -->
+  <div class="box">
+
+    <h1>About Us</h1>
+
+    <p>
+      Welcome to <strong>All New Yono Games</strong>. This website is created to provide information and easy access to popular Yono, Rummy, Slot, and bonus-related applications in one place.
+    </p>
+
+    <p>
+      Our goal is to make it simple for users to explore different apps and offers without searching across multiple websites.
+    </p>
+
+    <p>
+      We do not own or operate any of the listed applications. All app names, logos, and trademarks belong to their respective owners.
+    </p>
+
+  </div>
+
+
+  <!-- OUR MISSION -->
+  <div class="box">
+
+    <h2>Our Mission</h2>
+
+    <p>
+      To provide a clean, fast, and mobile-friendly platform where users can discover trending gaming and bonus apps with proper information and referral access.
+    </p>
+
+  </div>
+
+
+  <!-- IMPORTANT NOTICE -->
+  <div class="box">
+
+    <h2>Important Notice</h2>
+
+    <p>
+      This website is for informational purposes only. We do not guarantee any earnings, bonuses, withdrawals, or profits. Users should check the rules and conditions of each app before using it.
+    </p>
+
+  </div>
+
+
+  <!-- CONTACT -->
+  <div class="box">
+
+    <h2>Contact</h2>
+
+    <p>
+      For website-related queries, you can contact us through the available contact methods on this website.
+    </p>
+
+    <p>
+      <a href="/">← Back to Home</a>
+    </p>
+
+  </div>
+
+</div>
 
 </body>
 </html>
